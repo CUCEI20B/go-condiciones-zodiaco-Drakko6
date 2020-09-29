@@ -36,6 +36,9 @@ func main (){
         fmt.Println("acuario") 
     case  mes == 2 && dia >=20  ||  mes==3 && dia<=20 :
         fmt.Println("piscis") 
-	}
+        default: 
+    fmt.Println("invalido")
+    }
+
 
 }
