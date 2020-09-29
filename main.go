@@ -13,29 +13,29 @@ func main (){
 	switch {
 
 	case  mes == 3 && dia >=21  ||  mes==4 && dia<=20 :
-        fmt.Println("Aries")
+        fmt.Println("aries")
     case  mes == 4 && dia >=21  ||  mes==5 && dia<=20 :
-        fmt.Println("Tauro")
+        fmt.Println("tauro")
     case  mes == 5 && dia >=21  ||  mes==6 && dia<=21 :
-        fmt.Println("Geminis") 
+        fmt.Println("geminis") 
     case  mes == 6 && dia >=22  ||  mes==7 && dia<=22 :
-        fmt.Println("Cáncer") 
+        fmt.Println("cancer") 
     case  mes == 7 && dia >=23  ||  mes==8 && dia<=28 :
-        fmt.Println("Leo") 
+        fmt.Println("leo") 
     case  mes == 8 && dia >=24  ||  mes==9 && dia<=23 :
-        fmt.Println("Virgo") 
+        fmt.Println("virgo") 
     case  mes == 9 && dia >=24  ||  mes==10 && dia<=22 :
-        fmt.Println("Libra") 
+        fmt.Println("libra") 
     case  mes == 10 && dia >=23  ||  mes==11 && dia<=22 :
-        fmt.Println("Escorpio") 
+        fmt.Println("escorpio") 
     case  mes == 11 && dia >=23  ||  mes==12 && dia<=21 :
-        fmt.Println("Sagitario") 
+        fmt.Println("sagitario") 
     case  mes == 12 && dia >=22  ||  mes==1 && dia<=19 :
-        fmt.Println("Capricornio") 
+        fmt.Println("capricornio") 
     case  mes == 1 && dia >=20  ||  mes==2 && dia<=19 :
-        fmt.Println("Acuario") 
+        fmt.Println("acuario") 
     case  mes == 2 && dia >=20  ||  mes==3 && dia<=20 :
-        fmt.Println("Piscis") 
+        fmt.Println("piscis") 
 	}
 
 }
